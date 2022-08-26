@@ -1,24 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+// import { PageOne } from './page-one';
+// import { PageTwo } from './page-two';
+import { FlashBorder } from './flash-border';
+import { MyComponent } from './MyComponent';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <PageOne />
+      <PageTwo /> */}
+      <FlashBorder add={true}>
+        <MyComponent />
+      </FlashBorder>
+    </>  
   );
 }
 

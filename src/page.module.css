@@ -1,0 +1,19 @@
+.wrapper {
+width: 400px;
+border: 1px solid royalblue;
+padding: 20px;
+}
+
+.title {
+    
+
+}
+
+.button {
+padding: 5px;
+width: 40px;
+font-size: 24px;
+font-weight: bold;
+border: 1px solid royalblue;
+margin-right: 10px;
+}
